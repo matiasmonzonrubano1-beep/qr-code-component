@@ -50,4 +50,4 @@ I am still a begginer so I have much to learn, but I am definitively interested 
 
 ## Author
 
-- Frontend Mentor - [@matiasmonzonrubano1-beep](https://www.frontendmentor.io/profile/matiasmonzonrubano1-beep)
+- Frontend Mentor - [@matiasmonzonrubano1-beep](https://www.frontendmentor.io/profile/matiasmonzonrubano1-beep) 
