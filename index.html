@@ -16,24 +16,27 @@
       .div1 {
         border-radius: 15px;
         background-color: white;
-        padding: 20px;
-        width: 600px;
-        height: 650px;
+        padding: 15px;
+        width: 315px;
+        height: fit-content;
         text-align: center;
         font-family: "Outfit";
+        display:grid;
+        place-items:center;
       }
       .qrimage {
         border-radius: 15px;
-        box-shadow: 0 0 0 2px;
         background-image: url('images/image-qr-code.png');
         background-size:cover;
-        width:600px;
-        height:600px;
+        padding:20px;
+        width:270px;
+        height:270px;
       }
       .center {
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 100vh;
       }
       .bottom {
         position: absolute;
@@ -41,16 +44,27 @@
         left: 50%;
         transform:translate(-50%,50%)
       }
+      .main {
+        font-size:25px;
+        font-weight:700;
+        padding:15px;
+        padding-top:20px;
+      }
+      .other {
+        font-size:15px;
+        font-weight:400;
+        color:hsl(216, 15%, 48%);
+        padding:25px;
+        padding-top:0;
+      }
     </style>
   </head>
-  <body style="background-color: hsl(212, 45%, 89%);" className="items-center height-">
+  <body style="background-color: hsl(212, 45%, 89%);">
     <div class="center">
       <div class="div1">
         <div class="qrimage"></div>
-        Improve your front-end skills by building projects
-
-        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-
+          <div class="main">Improve your front-end skills by building projects</div>
+          <div class="other">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</div>
       </div>
     </div>
     <div class="bottom">
